@@ -1,0 +1,24 @@
+project:
+    title: "The Big 4 of trash"
+Username: "Adresse email"
+Firstname: "Prénom"
+Lastname: "Nom"
+Email: "Adresse e-mail"
+Password: "Mot de passe"
+Repeat_password: "Répéter mot de passe"
+Submit: "S'inscrire"
+or: "ou"
+login:
+    login: "Se connecter"
+    signin: "Connexion"
+register:
+    here: "Inscris-toi ici"
+link.back.label: "Retour"
+page.register.form.meta.title: "S'inscrire"
+page.register.success.meta.title: "C'est un succès !"
+form.register.title: "Inscription"
+page.register.success.title: "Utilisateur créé, mail envoyé !"
+page.register.success.checkMail.paragraph: "Vérifiez vos mails, une surprise vous attend !"
+register_done:
+    success: "Votre compte a bien été enregistré"
+    error: "Une erreure est survenue, recommencez plus tard"

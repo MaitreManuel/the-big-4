@@ -1,0 +1,19 @@
+{% trans_default_domain 'mails' %}
+
+<html>
+  <head></head>
+  <body>
+    <p>
+      {{ 'Register.Greetings'|trans({ '%firstname%': user.firstname }) }}
+    </p>
+    <p>
+      {{ 'Register.Message'|trans }}
+    </p>
+    <p>
+      {{ 'Register.Bye'|trans }}
+    </p>
+    <b>
+      Awesome Team
+    </b>
+  </body>
+</html>

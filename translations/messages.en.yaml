@@ -1,0 +1,24 @@
+project:
+    title: "The Big 4 of trash"
+Username: "Mail"
+Firstname: "First name"
+Lastname: "Last name"
+Email: "Email address"
+Password: "Password"
+Repeat_password: "Repeat password"
+Submit: "Register"
+or: "or"
+login:
+    login: "Login"
+    signin: "Sign in"
+register:
+    here: "Register here"
+link.back.label: "Back"
+page.register.form.meta.title: "Register"
+form.register.title: "Registering"
+page.register.success.meta.title: "It's a pure success"
+page.register.success.title: "User added, mail sent !"
+page.register.success.checkMail.paragraph: "Check your mails, there's a surprise for you!"
+register_done:
+    success: "Your account has been created"
+    error: "An error happened, try again later"

@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+{% trans_default_domain 'ui' %}
+
+{% block title %}{{ 'page.register.success.meta.title'|trans|raw }}{% endblock %}
+
+{% block body %}
+    <div class="container text-center">
+        <div class="row justify-content-center">
+            <div class="col-6">
+                <h1>{{ 'page.register.success.title'|trans|raw }} ✅</h1>
+                {% if mail|default %}
+                    <div class="p-3 mb-2 bg-success text-white">{{ mail|default }}, {{ 'register_done.success'|trans }}</div>
+                {% else %}
+                    <div class="p-3 mb-2 bg-danger text-white">{{ 'register_done.error'|trans }}</div>
+                {% endif %}
+                <p>{{ 'page.register.success.checkMail.paragraph'|trans|raw }}</p>
+                <a
+                        class="btn btn-primary"
+                        href="{{ url('security_login')}} "
+                >
+                    {{ 'link.back.label'|trans|raw }}
+                </a>
+            </div>
+        </div>
+    </div>
+{% endblock %}
