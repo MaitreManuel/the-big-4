@@ -1,0 +1,29 @@
+.fadein {
+    cursor: pointer;
+    -webkit-transition: background-color .2s ease-in, color .2s ease-in, fill .2s ease-in, border .2s ease-in;
+    transition: background-color .2s ease-in, color .2s ease-in, fill .2s ease-in, border .2s ease-in;
+}
+@-webkit-keyframes backdropAnimation {
+    from { backdrop-filter: blur(0); }
+    to { backdrop-filter: blur(5px); }
+}
+@-moz-keyframes backdropAnimation {
+    from { backdrop-filter: blur(0); }
+    to { backdrop-filter: blur(5px); }
+}
+@keyframes backdropAnimation {
+    from { backdrop-filter: blur(0); }
+    to { backdrop-filter: blur(5px); }
+}
+@-webkit-keyframes top-down {
+    from { margin-top: 0; }
+    to { margin-top: 10px; }
+}
+@-moz-keyframes top-down {
+    from { margin-top: 0; }
+    to { margin-top: 10px; }
+}
+@keyframes top-down {
+    from { margin-top: 0; }
+    to { margin-top: 10px; }
+}

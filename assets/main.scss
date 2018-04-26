@@ -1,1 +1,23 @@
+// general
+@import 'tools/mixins';
+@import 'tools/variables';
+@import 'tools/animation';
+// libs
 @import "~bootstrap/scss/bootstrap";
+// custom
+@import "home/_home.scss";
+
+body {
+    font-size: 10px;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 100vw;
+}
+main {
+    font-size: 1.6rem;
+    height: calc(100% - 56px);
+    position: relative;
+    width: 100%;
+}

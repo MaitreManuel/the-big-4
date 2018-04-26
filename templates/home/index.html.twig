@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Home{% endblock %}
+
+{% block body %}
+    <main>
+        <div class="bg-video p-absolute">
+            <div id="player"></div>
+        </div>
+        <div class="container-home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6"></div>
+                    <div class="col-6">
+                        <p>{{ 'project.title'|trans }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+{% endblock %}
