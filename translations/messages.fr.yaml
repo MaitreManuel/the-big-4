@@ -8,6 +8,7 @@ Password: "Mot de passe"
 Repeat_password: "Répéter mot de passe"
 Submit: "S'inscrire"
 or: "ou"
+new_game: "Nouvelle partie"
 login:
     login: "Se connecter"
     signin: "Connexion"
@@ -22,3 +23,4 @@ page.register.success.checkMail.paragraph: "Vérifiez vos mails, une surprise vo
 register_done:
     success: "Votre compte a bien été enregistré"
     error: "Une erreure est survenue, recommencez plus tard"
+intro: "Bonjour à toi !<br><br>Si tu n'as pas envie de t'inscrire, joue en local avec un ami à côté de toi !"

@@ -27,7 +27,6 @@ class SecurityController extends Controller
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
-//            dump($form);die();
             $em = $this->getDoctrine()->getManager();
             $em->getRepository(User::class)->findBy(array(
                 'email' => $form->getNormData()['_username'],

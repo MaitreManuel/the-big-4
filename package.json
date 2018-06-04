@@ -16,9 +16,7 @@
         "deploy": "npm --prefix apps/SiteBundle run build && git add -A && git commit -nm ':rocket: deploy' && git push && git subtree push --prefix apps/SiteBundle/web origin gh-pages"
     },
     "dependencies": {
-        "bootstrap": "^4.1.0",
-        "domready": "^1.0.8",
-        "youtube-player": "^5.5.0"
+        "bootstrap": "^4.1.0"
     },
     "devDependencies": {
         "babel-core": "^6.25.0",

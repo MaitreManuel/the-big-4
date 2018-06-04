@@ -8,6 +8,7 @@ Password: "Password"
 Repeat_password: "Repeat password"
 Submit: "Register"
 or: "or"
+new_game: "New game"
 login:
     login: "Login"
     signin: "Sign in"
@@ -22,3 +23,4 @@ page.register.success.checkMail.paragraph: "Check your mails, there's a surprise
 register_done:
     success: "Your account has been created"
     error: "An error happened, try again later"
+intro: "Hello you !<br><br>If you don't want to register you, you an play with a friend in local mode !"
